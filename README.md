@@ -1,7 +1,7 @@
 Punctuality 
-
-Task descriptions from Tanda:
 ===================================================================================================================================
+Task descriptions from Tanda:
+
 This task is a challenge for front end engineers and developers.
 
 Included in this package is a small Ruby web server, which returns data about rosters and shifts for a fictional person. Your task is to design and build a small widget that shows information about this person's punctuality.
@@ -44,6 +44,7 @@ Once your server is set up, you should be able to visit it through a browser and
 3. Add one new feature (something that doesn't exist in the gif)
 
 Feel free to use any javascript libraries you like.
-================================================================================================================================
+
+End of description 
 
 I have done all basic and advanced features. The new feature is that if you enter a period that doesn't exist in the database the website will pop up a message box to inform you on that. 
