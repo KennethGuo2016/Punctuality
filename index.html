@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="Tanda front-end coding challenge by Jianxing Guo">
+		<title>Punctuality</title>
+		<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="punctuality.css">
+	</head>
+	
+	<body>
+		<div class="container"> 
+			<header>
+				<img alt="profile" src="https://images-na.ssl-images-amazon.com/images/I/81olhQ%2B41BL._SY355_.jpg">
+				<span id="name">Mike</span>
+				<span id="date">
+					<label>From</label>
+					<input type="date" placeholder="dd-mm-yyyy"required>
+					<label>To</label>
+					<input type="date" placeholder="dd-mm-yyyy" required>
+					<input type="submit" value="Check">
+				</span>
+			</header>
+			
+			<div id="line"></div>
+			
+			<div id="indicatorContainer"></div>	
+			<div id="summary">Mike is punctual <span id="percentage">0</span>% of the time</div>
+			
+			<div class="row" id="bar">
+			
+				<div class="col-lg-4">
+					<div id="box1" class="box">
+						<span class="before">ARRIVED LATE </span> 
+						<span id="text1" class="text"></span>
+					</div>
+				</div>
+				
+				<div class="col-lg-4">
+					<div id="box2" class="box">
+						<span class="before">PUNCTUAL </span>
+						<span id="text2" class="text"></span>
+					</div>
+				</div>
+					
+				<div class="col-lg-4">
+					<div id="box3" class="box">
+						<span class="before">LEFT EARLY </span>
+						<span id="text3" class="text"></span>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+			<div id="tableArea">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Date</th>
+							<th>Rostered Start</th>
+							<th>Actual Start</th>
+							<th>Rostered Finish</th>
+							<th>Actual Finish</th>
+						</tr>
+					</thead>
+					<tbody></tbody>
+				</table>
+			</div>
+			
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+		<script src="radialIndicator.js"></script>
+		<script src="punctuality.js"></script>
+	</body>
+</html>

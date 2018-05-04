@@ -1,0 +1,186 @@
+
+body {
+	margin: auto;
+	padding-top: 20px;
+	font-size: 10pt;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width: 55%;
+}
+
+.container {
+	border: 1px solid rgb(202,216,218);
+	border-radius: 5px;
+	margin-top: 15px;
+	padding-top: 10px;
+}
+
+header {
+	margin: 0px 20px 10px 20px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-top: 20px;
+}
+
+#name{
+	font-size: 15pt;
+}
+
+#date{
+	margin-top: 5px;
+	float: right;
+}
+
+#summary {
+	margin-top: 10px;
+	font-size: 13pt;
+	text-align: center;
+}
+
+.box {
+	width: 95%;
+	height: 40px;
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 8px;
+	border: 1px solid rgb(202,216,218);
+	border-radius: 5px;
+}
+
+.text {
+	margin-left: 10px;
+	font-weight: bold;
+	color: rgb(76, 70, 74);
+}
+
+.before {
+	color: grey;
+	font-weight: bold;
+}
+
+#line {
+	width: 100%;
+	border-bottom: 1px solid rgb(202,216,218);
+}
+
+#bar {
+	padding-top: 10px;
+	width: 75%;
+	margin: auto;
+}
+
+input {
+	border-radius: 5px;
+	height: 33px;
+	text-align: center;
+}
+
+.dataTables_info {
+	font-size: 12pt;
+}
+.top {
+	margin-top:10px;
+}
+
+.dataTables_length * {
+	border-radius: 5px;
+	margin-top: 5px;
+	font-size: 11pt;
+	
+}
+img {
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(211, 236, 240);
+	border-radius: 50px;
+	margin-bottom: 6px;
+}
+
+#tableArea {
+	height: 290px;
+	overflow-y: scroll;
+}
+#indicatorContainer{
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* Popup container*/
+.popup {
+	height: 20px;
+	padding-top: 5px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 70px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -35px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* hide the popup */
+.popup .disappear {
+	visibility: hidden;
+	-webkit-animation: fadeOut 1s;
+    animation: fadeOut 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity:1 ; visibility: visible;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0; visibility: hidden;}
+    to {opacity:1 ; visibility: visible;}
+}
+
+/*fade out the popup*/
+@-webkit-keyframes fadeOut {
+    from {opacity: 1; visibility: visible;} 
+    to {opacity: 0; visibility: hidden;}
+}
+
+@keyframes fadeOut {
+    from {opacity: 1; visibility: visible;} 
+    to {opacity: 0; visibility: hidden;}
+}
