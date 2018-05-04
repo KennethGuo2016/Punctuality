@@ -1,6 +1,6 @@
 Punctuality 
 ===================================================================================================================================
-Task descriptions from Tanda:
+Task descriptions from Tanda: "
 
 This task is a challenge for front end engineers and developers.
 
@@ -45,6 +45,6 @@ Once your server is set up, you should be able to visit it through a browser and
 
 Feel free to use any javascript libraries you like.
 
-End of description 
+" 
 
 I have done all basic and advanced features. The new feature is that if you enter a period that doesn't exist in the database the website will pop up a message box to inform you on that. 
